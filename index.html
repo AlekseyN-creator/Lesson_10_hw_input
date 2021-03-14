@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson_10_hw
+	</title>
+</head>
+
+<body>
+	<form class="form" action="#" method="GET" enctype="multipart/form-data">
+		<div class="form__line">
+			<div class="form__input">
+				<label class="form__label" for="username">Имя пользователя <span class="form__span">*</span></label>
+				<input class="input" type="text" id="username" placeholder="Имя пользователя *">
+			</div>
+		</div>
+		<div class="form__line">
+			<div class="form__input">
+				<label class="form__label" for="password">Пароль <span class="form__span">*</span></label>
+				<input class="input" required minlength="8" type="password" id="password" placeholder="Пароль *">
+			</div>
+		</div>
+		<div class="form__line">
+			<div class="form__input">
+				<label class="form__label" for="date">Дата</label>
+				<input class="input" required type="date" id="date" placeholder="">
+			</div>
+		</div>
+		<div class="form__line">
+			<div class="form__input">
+				<label class="form__label" for="number">Номер</label>
+				<input class="input" type="number" id="number" placeholder="Номер">
+			</div>
+		</div>
+		<div class="form__line">
+			<div class="form__input">
+				<label class="form__label" for="tel">Телефон</label>
+				<input class="input" type="tel" id="tel" placeholder="Телефон">
+			</div>
+		</div>
+		<div class="form__line">
+			<div class="form__input">
+				<label class="form__label" for="time">Время</label>
+				<input class="input" type="time" id="time" placeholder="Время">
+			</div>
+		</div>
+		<div class="form__line">
+			<div class="form__input">
+				<label class="form__label" for="email">@email <span class="form__span">*</span></label>
+				<input class="input" required minlength="6" type="email" id="email" placeholder="@email *">
+			</div>
+		</div>
+		<div class="form__line">
+			<div class="form__input">
+				<label class="form__label" for="email">Запасной @email <span class="form__span">*</span></label>
+				<input class="input" disabled minlength="6" type="email" id="email" placeholder="Запасной @email *">
+			</div>
+		</div>
+		<div class="form__line">
+			<div class="form__input">
+				<button class="form_button" type="button">Кнопка</button>
+				<button class="form_button" type="submit">Отправить</button>
+				<button class="form_button" type="reset">Сбросить</button>
+			</div>
+		</div>
+	</form>
+</body>
+
+</html>
